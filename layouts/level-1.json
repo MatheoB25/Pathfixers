@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.19415059112740843,
+    "zoomFactor": 0.33005600491659476,
     "windowMask": false
   },
   "objectsGroups": [
@@ -165,38 +165,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 605,
-      "layer": "",
-      "name": "COLLISIONS",
-      "persistentUuid": "cf34b051-5a1f-4dee-8026-f5d1001e0ccf",
-      "width": 64,
-      "x": 448,
-      "y": 3,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 594,
-      "layer": "",
-      "name": "COLLISIONS",
-      "persistentUuid": "ffa2755d-1f52-4ee8-a8b9-549cf7b0fc65",
-      "width": 64,
-      "x": 960,
-      "y": 480,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 270,
       "customSize": true,
       "depth": 1,
@@ -248,22 +216,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 594,
-      "layer": "",
-      "name": "COLLISIONS",
-      "persistentUuid": "5729029b-e141-4644-8bf9-805d65af3cc7",
-      "width": 64,
-      "x": 1632,
-      "y": 480,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 608,
       "layer": "",
       "name": "DOOR",
@@ -280,13 +232,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1234,
+      "height": 1202,
       "layer": "",
       "name": "COLLISIONS",
       "persistentUuid": "6c16704d-e1b2-4c79-a2f2-401c0819aaea",
       "width": 64,
       "x": 1888,
-      "y": -64,
+      "y": -32,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -296,14 +248,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 992,
+      "height": 1216,
       "layer": "",
       "name": "SWITCH",
       "persistentUuid": "23fb463b-ae32-4950-bcc3-722866ef61bd",
-      "width": 1600,
-      "x": 160,
-      "y": 32,
-      "zOrder": 9,
+      "width": 1952,
+      "x": 0,
+      "y": 0,
+      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -332,8 +284,8 @@
       "layer": "",
       "name": "elevator",
       "persistentUuid": "9f62be87-52b9-4b37-9c4c-e352d017e4d8",
-      "width": 416,
-      "x": 1120,
+      "width": 608,
+      "x": 1024,
       "y": 800,
       "zOrder": 11,
       "numberProperties": [],
@@ -483,6 +435,70 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "layer": "",
+      "name": "hit",
+      "persistentUuid": "7dd3a76a-e679-4b44-9f11-650ea631c6f4",
+      "width": 608,
+      "x": 1024,
+      "y": 448,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "layer": "",
+      "name": "DoorCollision",
+      "persistentUuid": "e59b1d3e-c7e3-44aa-bc7b-31934d317f18",
+      "width": 64,
+      "x": 1632,
+      "y": 480,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "layer": "",
+      "name": "DoorCollision",
+      "persistentUuid": "986592eb-664d-4ded-836e-fef9c4f0d331",
+      "width": 64,
+      "x": 448,
+      "y": 0,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "layer": "",
+      "name": "DoorCollision",
+      "persistentUuid": "fc3e06da-53da-4b37-898b-d02499a951d9",
+      "width": 64,
+      "x": 960,
+      "y": 480,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -515,7 +531,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "FP",
+                      "x": 0,
+                      "y": 64
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -843,7 +865,26 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Godray",
+          "name": "Effect",
+          "doubleParameters": {
+            "angle": 30,
+            "animationSpeed": 1,
+            "gain": 0.6,
+            "lacunarity": 2.75,
+            "light": 30,
+            "padding": 0,
+            "x": 100,
+            "y": 100
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "parallel": true
+          }
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -932,8 +973,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1211,6 +1252,128 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "hit",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 64,
+                        "y": 20
+                      },
+                      {
+                        "x": 64,
+                        "y": 39
+                      },
+                      {
+                        "x": 0,
+                        "y": 39
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DoorCollision",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "DoorCollision",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1241,6 +1404,9 @@
         "objectName": "DOOR"
       },
       {
+        "objectName": "DoorCollision"
+      },
+      {
         "objectName": "SquareWhiteToggle"
       },
       {
@@ -1254,6 +1420,9 @@
       },
       {
         "objectName": "Win"
+      },
+      {
+        "objectName": "hit"
       }
     ]
   },
