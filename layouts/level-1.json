@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.33005600491659476,
+    "zoomFactor": 0.25314140012986397,
     "windowMask": false
   },
   "objectsGroups": [
@@ -45,8 +45,8 @@
       "name": "ROBOT_",
       "persistentUuid": "88391193-dd03-41ff-91ed-708b425fe3c3",
       "width": 105,
-      "x": 629,
-      "y": 468,
+      "x": 972,
+      "y": 148,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,8 +61,8 @@
       "name": "ROBOT_2",
       "persistentUuid": "08200515-4dea-4509-a12b-938f2f7281bb",
       "width": 105,
-      "x": 64,
-      "y": 928,
+      "x": 87,
+      "y": 951,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -187,43 +187,11 @@
       "height": 611,
       "layer": "",
       "name": "DOOR",
-      "persistentUuid": "c79854c2-10ce-4766-b6db-a7e3103ea5ae",
-      "width": 64,
-      "x": 992,
-      "y": 786,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 611,
-      "layer": "",
-      "name": "DOOR",
       "persistentUuid": "fb04fcf2-186d-4c9d-986a-3368ab6f6e1a",
       "width": 64,
       "x": 480,
-      "y": 303,
+      "y": 306,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 608,
-      "layer": "",
-      "name": "DOOR",
-      "persistentUuid": "803ecb41-4bec-4577-b262-aa16d1653eec",
-      "width": 64,
-      "x": 1664,
-      "y": 784,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -253,9 +221,9 @@
       "name": "SWITCH",
       "persistentUuid": "23fb463b-ae32-4950-bcc3-722866ef61bd",
       "width": 1952,
-      "x": 0,
-      "y": 0,
-      "zOrder": 59,
+      "x": -64,
+      "y": 704,
+      "zOrder": 93,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -269,8 +237,8 @@
       "name": "box",
       "persistentUuid": "a113de1b-0907-4ea7-ae3b-b2995b32de6d",
       "width": 128,
-      "x": 416,
-      "y": 896,
+      "x": 544,
+      "y": 864,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -284,8 +252,8 @@
       "layer": "",
       "name": "elevator",
       "persistentUuid": "9f62be87-52b9-4b37-9c4c-e352d017e4d8",
-      "width": 608,
-      "x": 1024,
+      "width": 672,
+      "x": 992,
       "y": 800,
       "zOrder": 11,
       "numberProperties": [],
@@ -360,61 +328,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 128,
-      "layer": "",
-      "name": "button",
-      "persistentUuid": "68761ec4-8410-4946-a55b-7f06929447c1",
-      "width": 128,
-      "x": 928,
-      "y": 352,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "layer": "",
-      "name": "button",
-      "persistentUuid": "9c601938-9ae2-4eb6-ac87-ece05be4e252",
-      "width": 128,
-      "x": 1600,
-      "y": 352,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "button",
-      "persistentUuid": "60270b88-11b9-4b0d-8660-79d80d2f6e53",
-      "width": 96,
-      "x": 1280,
-      "y": 832,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 160,
       "layer": "",
       "name": "Win",
       "persistentUuid": "5841c544-cb3d-4ebf-a4f8-ee1352630314",
       "width": 160,
       "x": 1728,
-      "y": 96,
+      "y": 160,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -459,22 +379,6 @@
       "height": 608,
       "layer": "",
       "name": "DoorCollision",
-      "persistentUuid": "e59b1d3e-c7e3-44aa-bc7b-31934d317f18",
-      "width": 64,
-      "x": 1632,
-      "y": 480,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 608,
-      "layer": "",
-      "name": "DoorCollision",
       "persistentUuid": "986592eb-664d-4ded-836e-fef9c4f0d331",
       "width": 64,
       "x": 448,
@@ -488,14 +392,142 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "button_2",
+      "persistentUuid": "ff19e1ce-bb6b-40b2-b3ef-1f31d98d6ecc",
+      "width": 64,
+      "x": 1280,
+      "y": 864,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "TargetThrow",
+      "persistentUuid": "feb48b36-271b-4227-bd16-fe7c91b74360",
+      "width": 608,
+      "x": 1024,
+      "y": 480,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "button2",
+      "persistentUuid": "b1b1edaa-b38d-4b1e-8d2b-611d46eb5d40",
+      "width": 128,
+      "x": 928,
+      "y": 352,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "button3",
+      "persistentUuid": "3d10f4ec-2f15-4242-b997-59dcdbe17a3d",
+      "width": 128,
+      "x": 1600,
+      "y": 352,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
       "height": 608,
       "layer": "",
-      "name": "DoorCollision",
-      "persistentUuid": "fc3e06da-53da-4b37-898b-d02499a951d9",
+      "name": "DOOR2",
+      "persistentUuid": "60d3e011-3a0b-4dd1-b260-991106f2c33e",
+      "width": 64,
+      "x": 992,
+      "y": 784,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "layer": "",
+      "name": "DOOR3",
+      "persistentUuid": "4e987dc8-8309-4a25-8182-6b5971a5e4db",
+      "width": 64,
+      "x": 1664,
+      "y": 784,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 544,
+      "layer": "",
+      "name": "DoorCollision2",
+      "persistentUuid": "70fbdf02-022b-476b-a445-bff02d557b42",
       "width": 64,
       "x": 960,
       "y": 480,
-      "zOrder": 6,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "layer": "",
+      "name": "DoorCollision3",
+      "persistentUuid": "70f93225-997b-419f-b9e4-5a6a29cab341",
+      "width": 64,
+      "x": 1632,
+      "y": 480,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "open",
+      "persistentUuid": "60dd7b26-4bd7-42b7-9af4-0c8460605f15",
+      "width": 160,
+      "x": 672,
+      "y": 320,
+      "zOrder": 94,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -511,9 +543,9 @@
       "variables": [
         {
           "folded": true,
-          "name": "Active",
-          "type": "number",
-          "value": 0
+          "name": "open",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -573,6 +605,116 @@
               ]
             }
           ]
+        },
+        {
+          "name": "open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "open4",
+                  "points": [
+                    {
+                      "name": "FP",
+                      "x": 0,
+                      "y": 64
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "win",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "win",
+                  "points": [
+                    {
+                      "name": "FP",
+                      "x": 0,
+                      "y": 64
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -588,6 +730,12 @@
           "name": "Active",
           "type": "number",
           "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Validhold",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
@@ -605,6 +753,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "win",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "win2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -954,7 +1151,20 @@
       "name": "box",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Throwbox",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -1010,7 +1220,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "elevator",
       "type": "Sprite",
@@ -1374,6 +1584,555 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetThrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "button_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 53
+                      },
+                      {
+                        "x": 0,
+                        "y": 53
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "button2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "button",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 16
+                      },
+                      {
+                        "x": 31,
+                        "y": 16
+                      },
+                      {
+                        "x": 31,
+                        "y": 32
+                      },
+                      {
+                        "x": 1,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "button3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "button",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 16
+                      },
+                      {
+                        "x": 31,
+                        "y": 16
+                      },
+                      {
+                        "x": 31,
+                        "y": 32
+                      },
+                      {
+                        "x": 1,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "DOOR2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "door",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "DOOR3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "door",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DoorCollision2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "DoorCollision",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DoorCollision3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "DoorCollision",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "open",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1395,16 +2154,34 @@
         "objectName": "SWITCH"
       },
       {
+        "objectName": "open"
+      },
+      {
         "objectName": "NewTiledSprite"
       },
       {
         "objectName": "box"
       },
       {
+        "objectName": "TargetThrow"
+      },
+      {
         "objectName": "DOOR"
       },
       {
+        "objectName": "DOOR2"
+      },
+      {
+        "objectName": "DOOR3"
+      },
+      {
         "objectName": "DoorCollision"
+      },
+      {
+        "objectName": "DoorCollision2"
+      },
+      {
+        "objectName": "DoorCollision3"
       },
       {
         "objectName": "SquareWhiteToggle"
@@ -1419,10 +2196,19 @@
         "objectName": "button"
       },
       {
+        "objectName": "button2"
+      },
+      {
+        "objectName": "button3"
+      },
+      {
         "objectName": "Win"
       },
       {
         "objectName": "hit"
+      },
+      {
+        "objectName": "button_2"
       }
     ]
   },
@@ -1466,6 +2252,25 @@
         "includeConfig": 0
       },
       "target": "Sounds"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Porter JEter"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Win"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
