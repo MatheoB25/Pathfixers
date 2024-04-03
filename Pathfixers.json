@@ -68,7 +68,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": false
@@ -363,7 +363,7 @@
         "alwaysLoaded": false,
         "file": "assets/win.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/win.png\"}",
         "name": "win",
         "smoothed": true,
         "userAdded": false
@@ -383,6 +383,78 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "open4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Openend.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Openend.png\"}",
+        "name": "Openend",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ROBOT 1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ROBOT 1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/win3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "win3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OpenR2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OpenR",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Robot1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/win.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\win.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OpenR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OpenR.png",
         "smoothed": true,
         "userAdded": true
       }

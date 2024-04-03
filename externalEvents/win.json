@@ -17,18 +17,24 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
             "ROBOT_",
             "Animation",
             "=",
-            "\"win\""
+            "1"
           ]
         }
       ]
@@ -47,18 +53,24 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
             "ROBOT_2",
             "Animation",
             "=",
-            "\"win\""
+            "1"
           ]
         }
       ]
@@ -83,13 +95,13 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
             "ROBOT_",
             "Animation",
             "=",
-            "\"ROBOT 1\""
+            "0"
           ]
         }
       ]
@@ -114,13 +126,13 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
             "ROBOT_2",
             "Animation",
             "=",
-            "\"Robot 2\""
+            "0"
           ]
         }
       ]
@@ -130,24 +142,24 @@
       "conditions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
           },
           "parameters": [
             "ROBOT_",
             "Animation",
             "=",
-            "\"win\""
+            "1"
           ]
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
           },
           "parameters": [
             "ROBOT_2",
             "Animation",
             "=",
-            "\"win\""
+            "1"
           ]
         }
       ],
@@ -171,11 +183,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
