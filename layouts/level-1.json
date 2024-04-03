@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3895856273827319,
+    "zoomFactor": 0.2890516203134942,
     "windowMask": false
   },
   "objectsGroups": [
@@ -45,8 +45,8 @@
       "name": "ROBOT_",
       "persistentUuid": "88391193-dd03-41ff-91ed-708b425fe3c3",
       "width": 105,
-      "x": 149,
-      "y": 436,
+      "x": 117,
+      "y": 468,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -66,8 +66,8 @@
       "name": "ROBOT_2",
       "persistentUuid": "08200515-4dea-4509-a12b-938f2f7281bb",
       "width": 105,
-      "x": 87,
-      "y": 951,
+      "x": 117,
+      "y": 1013,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -178,8 +178,8 @@
       "name": "COLLISIONS",
       "persistentUuid": "d317f819-50de-44be-adfb-8dd8f4edca58",
       "width": 64,
-      "x": 1760,
-      "y": 352,
+      "x": 1376,
+      "y": -320,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -226,9 +226,9 @@
       "name": "SWITCH",
       "persistentUuid": "23fb463b-ae32-4950-bcc3-722866ef61bd",
       "width": 1984,
-      "x": 352,
-      "y": 1472,
-      "zOrder": 93,
+      "x": 0,
+      "y": -96,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -242,7 +242,7 @@
       "name": "box",
       "persistentUuid": "a113de1b-0907-4ea7-ae3b-b2995b32de6d",
       "width": 128,
-      "x": 544,
+      "x": 512,
       "y": 960,
       "zOrder": 10,
       "numberProperties": [],
@@ -269,13 +269,13 @@
       "angle": 270,
       "customSize": true,
       "depth": 1,
-      "height": 1024,
+      "height": 544,
       "layer": "",
       "name": "COLLISIONS",
       "persistentUuid": "7900a2c3-70a8-47c0-b055-7c96e3cf72a6",
       "width": 64,
-      "x": 480,
-      "y": 0,
+      "x": 304,
+      "y": -400,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -338,8 +338,8 @@
       "name": "Win",
       "persistentUuid": "5841c544-cb3d-4ebf-a4f8-ee1352630314",
       "width": 160,
-      "x": 896,
-      "y": 320,
+      "x": 1728,
+      "y": 160,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -354,8 +354,8 @@
       "name": "Win",
       "persistentUuid": "017236aa-731b-4c70-a0ff-1d6696a8ede0",
       "width": 160,
-      "x": 320,
-      "y": 832,
+      "x": 1728,
+      "y": 864,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -405,22 +405,6 @@
       "x": 1280,
       "y": 864,
       "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "TargetThrow",
-      "persistentUuid": "feb48b36-271b-4227-bd16-fe7c91b74360",
-      "width": 608,
-      "x": 1024,
-      "y": 480,
-      "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -533,6 +517,38 @@
       "x": 608,
       "y": 416,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "TargetEle",
+      "persistentUuid": "1fd2827b-6704-4540-8056-9325b3d2845a",
+      "width": 608,
+      "x": 1024,
+      "y": 480,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "bretzel",
+      "persistentUuid": "5f759645-5582-45ef-a615-c7adce98e087",
+      "width": 1856,
+      "x": 32,
+      "y": 480,
+      "zOrder": 96,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -758,11 +774,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 32,
+                      "y": 0
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -807,11 +829,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "win2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 32,
+                      "y": 0
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1114,13 +1142,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
-                    "y": 32
+                    "y": 64
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 64
                   },
                   "customCollisionMask": [
                     [
@@ -1518,7 +1546,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "TargetThrow",
+      "name": "TargetThrowBox",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2069,6 +2097,78 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetEle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "TargetEle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "bretzel",
+      "texture": "NewTiledSprite2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2099,7 +2199,10 @@
         "objectName": "box"
       },
       {
-        "objectName": "TargetThrow"
+        "objectName": "bretzel"
+      },
+      {
+        "objectName": "TargetThrowBox"
       },
       {
         "objectName": "DOOR"
@@ -2142,6 +2245,9 @@
       },
       {
         "objectName": "button_2"
+      },
+      {
+        "objectName": "TargetEle"
       }
     ]
   },

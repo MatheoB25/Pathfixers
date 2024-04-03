@@ -85,24 +85,6 @@
             "=",
             "2"
           ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"RouteBox\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"ThrowCD\""
-          ]
         }
       ]
     },
@@ -127,15 +109,29 @@
           "parameters": [
             "box",
             "ROBOT_2",
-            "5",
+            "30",
             ""
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "value": "GlobalVariableAsBoolean"
           },
-          "parameters": []
+          "parameters": [
+            "head",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "PickNearest"
+          },
+          "parameters": [
+            "box",
+            "ROBOT_2.PointX(\"Center\")",
+            "ROBOT_2.PointY(\"Center\")",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -145,15 +141,44 @@
           },
           "parameters": [
             "box",
-            "ROBOT_2.CenterX()",
-            "ROBOT_2.PointY(\"Origin\")-100",
-            "5",
+            "ROBOT_2.PointX(\"Head\")",
+            "ROBOT_2.PointY(\"Head\")",
+            "900",
             ""
           ]
         }
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "head",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "box",
+            "=",
+            "ROBOT_2.PointX(\"Head\")",
+            "=",
+            "ROBOT_2.PointY(\"Head\")"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -178,12 +203,6 @@
             "10",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -193,8 +212,8 @@
           },
           "parameters": [
             "box",
-            "ROBOT_2.CenterX()",
-            "ROBOT_2.PointY(\"Origin\")-100",
+            "ROBOT_2.PointX(\"Head\")",
+            "ROBOT_2.PointY(\"Head\")",
             "900",
             ""
           ]
@@ -228,22 +247,55 @@
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "value": "GlobalVariableAsBoolean"
           },
-          "parameters": []
+          "parameters": [
+            "head",
+            "False"
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "SetCenter"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "box",
-            "=",
-            "ROBOT_2.PointX(\"Origin\")",
-            "=",
-            "ROBOT_2.PointY(\"Origin\")"
+            "head",
+            "True"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"RouteBox\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"RouteBox\""
+              ]
+            }
           ]
         }
       ]
@@ -279,7 +331,7 @@
             "",
             "\"ThrowCD\"",
             ">=",
-            "0.5"
+            "0.2"
           ]
         },
         {
@@ -290,6 +342,84 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "TargetThrowBox",
+            "ROBOT_2.PointX(\"Head\")+0",
+            "ROBOT_2.PointY(\"Head\")-800",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "head",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "box",
+            "ID",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "box",
+            "TargetThrowBox",
+            "900",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "box",
+            "TargetThrowBox",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "TargetThrowBox",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "ModVarObjet"
@@ -303,35 +433,53 @@
         },
         {
           "type": {
-            "value": "Create"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "TargetThrow",
-            "ROBOT_2.CenterX()",
-            "ROBOT_2.CenterY()-800",
-            ""
+            "collisionbretzelbox",
+            "True"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "AddForceVersPos"
+            "value": "VarObjet"
           },
           "parameters": [
             "box",
-            "TargetThrow.CenterX()",
-            "TargetThrow.CenterY()",
-            "2",
-            ""
+            "ID",
+            "=",
+            "1"
           ]
         },
         {
           "type": {
-            "value": "RemoveTimer"
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
           },
           "parameters": [
             "",
             "\"ThrowCD\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"RouteBox\""
           ]
         }
       ]
@@ -344,8 +492,8 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "ROBOT_2",
             "box",
+            "ROBOT_",
             "",
             "",
             ""
@@ -359,22 +507,62 @@
             "",
             "e"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "AddForceVersPos"
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "collisionbretzelbox",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
           },
           "parameters": [
             "box",
-            "ROBOT_2.CenterX()",
-            "ROBOT_2.PointY(\"Origin\")",
-            "2000",
+            "0",
+            "-800",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "Validhold",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "box",
+            "ID",
+            "=",
+            "0"
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }

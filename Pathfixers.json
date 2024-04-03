@@ -457,6 +457,481 @@
         "name": "assets\\OpenR.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "le titre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "le titre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jouer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jouer.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "clickerjoue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clickerjoue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "apuijoue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "apuijoue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Options.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Options.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "clickeroption.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clickeroption.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "apuioption.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "apuioption.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Credits.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "clickerpng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clickerpng.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "apuicredirs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "apuicredirs.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quitter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "quitter.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lightapuie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lightapuie.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quiterez la.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "quiterez la.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hovberback.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hovberback.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pressback.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pressback.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mathéo B_.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mathéo B_.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "2024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Musiques générées par ia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Musiques générées par ia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Musiques générées par ia2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Musiques générées par ia2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Credits2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Credits2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Contrôles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Contrôles.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hjighcontroles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hjighcontroles.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pres controles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pres controles.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Paramètres.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Paramètres.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "highpara.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "highpara.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "prespare.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prespare.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Options2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Options2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Options2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Options2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hovberback2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hovberback2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pressback2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pressback2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Contrôles2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Contrôles2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "MadouFutoMaruGothic-d9Xo7.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "MadouFutoMaruGothic-d9Xo7.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hovberback3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hovberback3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pressback3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pressback3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Paramètres2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Paramètres2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hovberback4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hovberback4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pressback4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pressback4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Unchecked.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Unchecked",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checked.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Checked",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jouer2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jouer2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hovberback5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hovberback5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pressback5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pressback5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "1h.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1h.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "1p.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1p.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -478,12 +953,48 @@
       "name": "Actif",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "collisionbretzelbox",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "head",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/options"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/contrles"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/paramtres"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/jouer"
     }
   ],
   "externalEvents": [
@@ -517,6 +1028,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
