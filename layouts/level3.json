@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.49138775453293576,
+    "zoomFactor": 0.38958562738272906,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -673,6 +673,22 @@
       "x": 1088,
       "y": 960,
       "zOrder": 221,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 128,
+      "layer": "",
+      "name": "Points",
+      "persistentUuid": "3ceb13b7-b233-40da-96c5-83c99a148d12",
+      "width": 32,
+      "x": 1824,
+      "y": 0,
+      "zOrder": 222,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
