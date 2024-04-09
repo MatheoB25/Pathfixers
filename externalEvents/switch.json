@@ -31,7 +31,17 @@
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SwitchTime\""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",

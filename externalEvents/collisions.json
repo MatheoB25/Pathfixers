@@ -28,18 +28,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "COLLISIONS",
-            "",
-            "",
-            ""
-          ]
         }
       ],
       "actions": [
@@ -133,6 +121,35 @@
           },
           "parameters": [
             "ROBOT_",
+            "elevator2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "ROBOT_",
+            "elevator2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ROBOT_",
             "elevator",
             "",
             "",
@@ -152,6 +169,40 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ROBOT_",
+            "elevator3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "ROBOT_",
+            "elevator3",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -309,6 +360,94 @@
             "DoorCollision2",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "button2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Animation",
+            "=",
+            "\"OpenR\""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ROBOT_",
+            "button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "DOOR",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "DoorCollision",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "button",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Animation",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -356,6 +495,26 @@
           "parameters": [
             "DoorCollision3",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "button3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Animation",
+            "=",
+            "0"
           ]
         }
       ]
@@ -416,18 +575,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "COLLISIONS",
-            "",
-            "",
-            ""
-          ]
         }
       ],
       "actions": [
@@ -452,18 +599,35 @@
           },
           "parameters": [
             "ROBOT_2",
-            "DoorCollision2",
+            "DoorCollision",
             "",
             "",
             ""
           ]
-        },
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "DoorCollision",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
             "value": "CollisionNP"
           },
           "parameters": [
-            "Player",
+            "ROBOT_2",
             "DoorCollision2",
             "",
             "",
@@ -493,18 +657,6 @@
           },
           "parameters": [
             "ROBOT_2",
-            "DoorCollision3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
             "DoorCollision3",
             "",
             "",
@@ -582,6 +734,22 @@
           "parameters": [
             "DoorCollision"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoorCollision2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DoorCollision3"
+          ]
         }
       ]
     },
@@ -612,8 +780,295 @@
             "300",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "arrow",
+            "TargetEle",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "down_arrow",
+            "TargetEle",
+            "300",
+            ""
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "button_3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "elevator2",
+            "TargetEle2",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "arrow2",
+            "TargetEle2",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "down_arrow2",
+            "TargetEle2",
+            "300",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "button_4",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "elevator3",
+            "TargetEle3",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "arrow3",
+            "TargetEle3",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "down_arrow3",
+            "TargetEle",
+            "300",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "down_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "elevator",
+            "Down_ele",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "down_arrow",
+            "Down_ele",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "arrow",
+            "Down_ele",
+            "300",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "down_button2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "elevator2",
+            "Down_ele2",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "down_arrow2",
+            "Down_ele2",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "arrow2",
+            "Down_ele2",
+            "300",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "down_button3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "elevator3",
+            "Down_ele3",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "down_arrow3",
+            "Down_ele3",
+            "300",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "arrow3",
+            "Down_ele3",
+            "300",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -645,6 +1100,62 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "elevator2",
+            "hit",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "hit",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "elevator3",
+            "hit",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "hit",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
@@ -653,6 +1164,46 @@
           },
           "parameters": [
             "TargetEle"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TargetEle2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TargetEle3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Down_ele"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Down_ele2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Down_ele3"
           ]
         }
       ]

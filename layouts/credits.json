@@ -5,7 +5,7 @@
   "name": "Credits",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -464,6 +464,21 @@
             "",
             "\"Menu\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
           ]
         }
       ]

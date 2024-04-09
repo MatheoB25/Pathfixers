@@ -5,7 +5,7 @@
   "name": "Menu",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.22169247275005163,
+    "zoomFactor": 0.20069741314549738,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -590,6 +590,34 @@
             "",
             "\"Jouer\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Groove Showdown (1).mp3",
+            "1",
+            "",
+            "100",
+            "1"
           ]
         }
       ]

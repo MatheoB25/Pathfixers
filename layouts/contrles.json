@@ -5,7 +5,7 @@
   "name": "Contrôles",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -295,7 +295,17 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

@@ -362,6 +362,16 @@
             "head",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "box",
+            "Throwbox",
+            "True"
+          ]
         }
       ]
     },
@@ -555,6 +565,16 @@
             "ID",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "box",
+            "Throwbox",
+            "False"
           ]
         }
       ]

@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Options",
-  "name": "Options",
+  "mangledName": "Options2",
+  "name": "Options2",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -420,7 +420,7 @@
           },
           "parameters": [
             "",
-            "\"Menu\"",
+            "\"LEVEL 1\"",
             ""
           ]
         }
@@ -474,21 +474,6 @@
             "",
             "\"Paramètres\"",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "RePlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
           ]
         }
       ]
