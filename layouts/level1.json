@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.24488383633725483,
+    "zoomFactor": 0.22916801610748774,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -515,6 +515,22 @@
       "x": 1824,
       "y": 32,
       "zOrder": 138,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 416,
+      "layer": "",
+      "name": "Restart",
+      "persistentUuid": "b55a8c27-594d-4bc8-99d8-bda4a7d93a9b",
+      "width": 480,
+      "x": 768,
+      "y": 160,
+      "zOrder": 139,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

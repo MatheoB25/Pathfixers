@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.05326224540997675,
+    "zoomFactor": 0.35269049347712306,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -107,8 +107,8 @@
       "depth": 48,
       "height": 192,
       "layer": "",
-      "name": "YES_NO",
-      "persistentUuid": "97d2c940-ffc1-464a-838e-544a2c23e42a",
+      "name": "YES_NO2",
+      "persistentUuid": "63683193-8808-41e4-8472-4f734a9d5a9b",
       "width": 192,
       "x": 1088,
       "y": 640,
@@ -186,6 +186,117 @@
           },
           "parameters": [
             "YES_NO",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "mixkit-quick-win-video-game-notification-268.wav",
+            "",
+            "100\n",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnloadMusic"
+          },
+          "parameters": [
+            "",
+            "Groove Showdown (1)2.mp3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "YES_NO2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::ToggleChecked"
+          },
+          "parameters": [
+            "YES_NO2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnloadMusic"
+          },
+          "parameters": [
+            "",
+            "switch-sound2.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "UnloadMusic"
+          },
+          "parameters": [
+            "",
+            "mixkit-quick-win-video-game-notification-269.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "UnloadMusic"
+          },
+          "parameters": [
+            "",
+            "interface-124463.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "UnloadMusic"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2567.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "mixkit-quick-win-video-game-notification-268.wav",
+            "",
+            "100\n",
             ""
           ]
         }
