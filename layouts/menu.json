@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.20069741314549738,
+    "zoomFactor": 0.20746499616301373,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -103,6 +103,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1152,
+      "layer": "",
+      "name": "fond_decran",
+      "persistentUuid": "9c45ebba-f31b-4dc4-b922-bc1dc999b32c",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": -24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -126,7 +142,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "le titre.png",
+                  "image": "PathFixers.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -469,6 +485,66 @@
           "width": 32
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fond_decran",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "smart-microchip-background-motherboard-closeup-technology.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 5700,
+                        "y": 0
+                      },
+                      {
+                        "x": 5700,
+                        "y": 3800
+                      },
+                      {
+                        "x": 0,
+                        "y": 3800
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -488,6 +564,9 @@
       },
       {
         "objectName": "Quitter"
+      },
+      {
+        "objectName": "fond_decran"
       }
     ]
   },
@@ -503,9 +582,27 @@
             "Credits",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -529,9 +626,27 @@
             "Options",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -555,9 +670,27 @@
             "Quitter",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Quit"
@@ -579,9 +712,27 @@
             "Jouer",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -615,7 +766,7 @@
             "",
             "Groove Showdown (1).mp3",
             "1",
-            "",
+            "yes",
             "100",
             "1"
           ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.26167741169921493,
+    "zoomFactor": 0.05326224540997675,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -29,7 +29,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Paramètres",
+      "name": "Paramètrespause",
       "persistentUuid": "03de80a7-5cfd-4a1e-9555-ffd08a23cb6e",
       "width": 0,
       "x": 576,
@@ -45,7 +45,7 @@
       "depth": 48,
       "height": 224,
       "layer": "",
-      "name": "Back",
+      "name": "Backpara",
       "persistentUuid": "bd9895f6-cbbe-48d7-a6ea-cb061baf92f5",
       "width": 224,
       "x": 64,
@@ -76,7 +76,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewText",
+      "name": "musique",
       "persistentUuid": "7629cba0-842b-4eb8-8316-d2e5c0d87f19",
       "width": 0,
       "x": 672,
@@ -91,7 +91,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewText2",
+      "name": "effets",
       "persistentUuid": "877dee26-5a5e-49e5-b034-27785d9fce10",
       "width": 0,
       "x": 429,
@@ -118,362 +118,9 @@
       "initialVariables": []
     }
   ],
-  "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Paramètres",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Paramètres2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 759,
-                        "y": 0
-                      },
-                      {
-                        "x": 759,
-                        "y": 132
-                      },
-                      {
-                        "x": 0,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "Back",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "hovberback4.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "back4.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "pressback4.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "YES_NO",
-      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "IsChecked": false
-      },
-      "childrenContent": {
-        "State": {
-          "adaptCollisionMaskAutomatically": false,
-          "updateIfNotVisible": false,
-          "animations": [
-            {
-              "name": "Unchecked",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Unchecked",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Checked",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Checked",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Musique : ",
-      "font": "MadouFutoMaruGothic-d9Xo7.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Musique : ",
-        "font": "MadouFutoMaruGothic-d9Xo7.ttf",
-        "textAlignment": "left",
-        "characterSize": 70,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText2",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Effets Sonores : ",
-      "font": "MadouFutoMaruGothic-d9Xo7.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Effets Sonores : ",
-        "font": "MadouFutoMaruGothic-d9Xo7.ttf",
-        "textAlignment": "left",
-        "characterSize": 70,
-        "color": "0;0;0"
-      }
-    }
-  ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Paramètres"
-      },
-      {
-        "objectName": "Back"
-      },
-      {
-        "objectName": "YES_NO"
-      },
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "NewText2"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -484,7 +131,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
           },
           "parameters": [
-            "Back",
+            "Backpara",
             ""
           ]
         }

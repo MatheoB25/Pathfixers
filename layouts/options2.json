@@ -30,7 +30,7 @@
       "depth": 48,
       "height": 96,
       "layer": "",
-      "name": "Contrôles",
+      "name": "Contrôles_pause",
       "persistentUuid": "be238f98-c390-4a43-87c1-5be0c7c105b4",
       "width": 608,
       "x": 640,
@@ -46,7 +46,7 @@
       "depth": 48,
       "height": 96,
       "layer": "",
-      "name": "Paramètres",
+      "name": "Paramètres_pause",
       "persistentUuid": "053223e0-e8a0-4bb9-8193-dd03b8873685",
       "width": 608,
       "x": 640,
@@ -62,7 +62,7 @@
       "depth": 1,
       "height": 128,
       "layer": "",
-      "name": "Options",
+      "name": "Options_pause",
       "persistentUuid": "2aabdf1e-e3fa-4359-bcc6-7cf167a93e6d",
       "width": 672,
       "x": 608,
@@ -78,7 +78,7 @@
       "depth": 48,
       "height": 224,
       "layer": "",
-      "name": "NewButton",
+      "name": "back_pause",
       "persistentUuid": "eadf8f0c-85b2-4e09-b935-137431f0c6da",
       "width": 224,
       "x": 64,
@@ -89,315 +89,9 @@
       "initialVariables": []
     }
   ],
-  "objects": [
-    {
-      "assetStoreId": "",
-      "name": "Contrôles",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "hjighcontroles.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Contrôles.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "pres controles.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Paramètres",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "highpara.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Paramètres.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "prespare.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        }
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Options",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Options2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Options2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 443,
-                        "y": 0
-                      },
-                      {
-                        "x": 443,
-                        "y": 80
-                      },
-                      {
-                        "x": 0,
-                        "y": 80
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "NewButton",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "hovberback2.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "back2.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "pressback2.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        }
-      }
-    }
-  ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Contrôles"
-      },
-      {
-        "objectName": "Options"
-      },
-      {
-        "objectName": "Paramètres"
-      },
-      {
-        "objectName": "NewButton"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -408,9 +102,15 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
           },
           "parameters": [
-            "NewButton",
+            "back_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -420,7 +120,7 @@
           },
           "parameters": [
             "",
-            "\"LEVEL 1\"",
+            "\"Level5\"",
             ""
           ]
         }
@@ -434,9 +134,15 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
           },
           "parameters": [
-            "Contrôles",
+            "Contrôles_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -460,9 +166,15 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
           },
           "parameters": [
-            "Paramètres",
+            "Paramètres_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [

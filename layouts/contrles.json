@@ -29,7 +29,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Contrôles",
+      "name": "Controlespause",
       "persistentUuid": "6f0adc80-a27d-4d7a-9d3c-60ca5659d0b1",
       "width": 0,
       "x": 599,
@@ -45,7 +45,7 @@
       "depth": 1,
       "height": 1024,
       "layer": "",
-      "name": "NewText",
+      "name": "controles_pause",
       "persistentUuid": "93beaa48-4c4c-4fe4-becb-31999b78965d",
       "width": 2240,
       "x": 512,
@@ -61,7 +61,7 @@
       "depth": 48,
       "height": 224,
       "layer": "",
-      "name": "Back",
+      "name": "Backcontrolepause",
       "persistentUuid": "d226a598-9f5f-4708-aa1e-3ee71f11c073",
       "width": 224,
       "x": 64,
@@ -72,198 +72,9 @@
       "initialVariables": []
     }
   ],
-  "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Contrôles",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Contrôles2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 681,
-                        "y": 0
-                      },
-                      {
-                        "x": 681,
-                        "y": 132
-                      },
-                      {
-                        "x": 0,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Déplacement :  \n\n- Q : Gauche \n- D : Droite \n\nMécaniques :\n\n- R : Switch\n- E : Porter/Jeter/Renvoyer \n\nNavigation : \n\n- Clic Gauche et Souris",
-      "font": "MadouFutoMaruGothic-d9Xo7.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Déplacement :  \n\n- Q : Gauche \n- D : Droite \n\nMécaniques :\n\n- R : Switch\n- E : Porter/Jeter/Renvoyer \n\nNavigation : \n\n- Clic Gauche et Souris",
-        "font": "MadouFutoMaruGothic-d9Xo7.ttf",
-        "textAlignment": "left",
-        "characterSize": 70,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Back",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "hovberback3.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "back3.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "pressback3.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        }
-      }
-    }
-  ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Contrôles"
-      },
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "Back"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -274,7 +85,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
           },
           "parameters": [
-            "Back",
+            "Backcontrolepause",
             ""
           ]
         }
