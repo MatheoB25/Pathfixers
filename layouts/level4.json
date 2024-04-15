@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.22916801610748835,
+    "zoomFactor": 0.2796226521839383,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -260,330 +260,10 @@
       "height": 96,
       "layer": "",
       "name": "box",
-      "persistentUuid": "e6648b2a-ad82-4f0b-b7dc-923637bade7f",
-      "width": 96,
-      "x": 816,
-      "y": 576,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 98,
-      "layer": "",
-      "name": "escalator",
-      "persistentUuid": "2610325f-3096-410c-8dce-4f493eb496a7",
-      "width": 142,
-      "x": 410,
-      "y": 554,
-      "zOrder": 224,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "3449200e-fb6b-4b14-a490-2cb9ce77347e",
-      "width": 96,
-      "x": 528,
-      "y": 576,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 98,
-      "layer": "",
-      "name": "escalator",
-      "persistentUuid": "bce32b8c-6c8e-4dbd-9ab8-0717cfd2d3af",
-      "width": 142,
-      "x": 552,
-      "y": 456,
-      "zOrder": 224,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "25d5ca42-6410-4bec-aeb8-4fdaf936bbcc",
-      "width": 96,
-      "x": 624,
-      "y": 576,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "8997c7a2-5b55-48e2-8253-e33938116d8a",
-      "width": 96,
-      "x": 720,
-      "y": 576,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 98,
-      "layer": "",
-      "name": "escalator",
-      "persistentUuid": "e4872fd0-48eb-4aa3-8b5a-ba084735c83e",
-      "width": 142,
-      "x": 698,
-      "y": 362,
-      "zOrder": 224,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 98,
-      "layer": "",
-      "name": "escalator",
-      "persistentUuid": "cd16ae3b-5ae9-4b04-a2c1-b8459651e8ae",
-      "width": 142,
-      "x": 840,
-      "y": 264,
-      "zOrder": 224,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 98,
-      "layer": "",
-      "name": "escalator",
-      "persistentUuid": "e5775db8-8578-4ebf-a672-8604a180cbb1",
-      "width": 142,
-      "x": 986,
-      "y": 168,
-      "zOrder": 224,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "43d9ecb0-3e80-4c04-acbc-6e96a1e66a85",
-      "width": 96,
-      "x": 688,
-      "y": 480,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "3e03d7e1-5653-41fc-a304-9c8941fd58f4",
-      "width": 96,
-      "x": 976,
-      "y": 288,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "4955637b-cc50-48e9-be70-126f84f65798",
-      "width": 96,
-      "x": 1008,
-      "y": 384,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "26679d47-3a21-4814-afdf-ee6d691ff922",
-      "width": 96,
-      "x": 1072,
-      "y": 480,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
       "persistentUuid": "0c05665b-a575-465b-9c13-f42d5de6b1e3",
       "width": 96,
       "x": 1104,
       "y": 576,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "c91a5390-be22-4d47-9143-ac4c90ff35f5",
-      "width": 96,
-      "x": 1008,
-      "y": 576,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "324cdcba-5b89-4bd2-bb9e-24d48c6d1e1b",
-      "width": 96,
-      "x": 912,
-      "y": 576,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "c121a7b5-cec4-49fa-b3bd-5e99de1311ef",
-      "width": 96,
-      "x": 880,
-      "y": 480,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "34cea8ba-2d7f-4758-a27b-83396d52e8bc",
-      "width": 96,
-      "x": 976,
-      "y": 480,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "5c81b74d-d352-41ce-b5cb-85d14bb3262b",
-      "width": 96,
-      "x": 912,
-      "y": 384,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "5f09e40c-30d6-4808-b6c1-be143f5a6db5",
-      "width": 96,
-      "x": 816,
-      "y": 384,
-      "zOrder": 223,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "layer": "",
-      "name": "box",
-      "persistentUuid": "99d4a0fd-af88-47e6-a533-b8150f055d7c",
-      "width": 96,
-      "x": 784,
-      "y": 480,
       "zOrder": 223,
       "numberProperties": [],
       "stringProperties": [],
@@ -854,6 +534,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 224,
+      "layer": "",
+      "name": "Restart",
+      "persistentUuid": "2b3f0d4e-dc74-4065-8023-40f962c12cd8",
+      "width": 224,
+      "x": 1696,
+      "y": 352,
+      "zOrder": 226,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "Open",
+      "persistentUuid": "93c34d9b-f54a-4410-b565-ed00d23bb3ba",
+      "width": 128,
+      "x": 1696,
+      "y": 96,
+      "zOrder": 227,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -921,6 +633,12 @@
             "Paramètres_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -958,6 +676,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -973,6 +703,12 @@
             "Points",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1010,6 +746,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1025,6 +773,12 @@
             "back_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1062,6 +816,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1077,6 +843,12 @@
             "Backpara",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1114,6 +886,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1167,6 +951,101 @@
             "",
             "\"Parametres\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "Restart",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level4\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Winlevel",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-quick-win-video-game-notification-267.wav",
+            "",
+            "100",
+            ""
+          ]
         }
       ]
     },
@@ -1181,6 +1060,12 @@
             "Backcontrolepause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1218,6 +1103,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1392,6 +1289,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

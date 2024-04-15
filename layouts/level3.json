@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.23689563725446594,
+    "zoomFactor": 0.27050126039625544,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -942,6 +942,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 256,
+      "layer": "",
+      "name": "Restart",
+      "persistentUuid": "06394241-84f6-4ef8-b083-02f9cb6dd936",
+      "width": 256,
+      "x": 64,
+      "y": 32,
+      "zOrder": 223,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1049,6 +1065,12 @@
             "Paramètres_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1086,6 +1108,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1101,6 +1135,12 @@
             "Points",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1138,6 +1178,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1153,6 +1205,12 @@
             "back_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1190,6 +1248,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1205,6 +1275,12 @@
             "Backpara",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1242,6 +1318,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1257,6 +1345,12 @@
             "Contrôles_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1295,6 +1389,124 @@
             "",
             "\"Parametres\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Restart"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "Restart",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level3\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Winlevel",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-quick-win-video-game-notification-267.wav",
+            "",
+            "100",
+            ""
+          ]
         }
       ]
     },
@@ -1309,6 +1521,12 @@
             "Backcontrolepause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1346,6 +1564,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
           ]
         }
       ]

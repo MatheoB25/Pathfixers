@@ -68,6 +68,15 @@
             "ROBOT_",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Restart",
+            ""
+          ]
         }
       ]
     },

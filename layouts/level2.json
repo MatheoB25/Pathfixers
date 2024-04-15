@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.28905162031349213,
+    "zoomFactor": 0.17003036489028975,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,8 +33,8 @@
       "name": "SWITCH",
       "persistentUuid": "e7efba0f-3118-4f5a-baf2-cd7ff001c542",
       "width": 2089,
-      "x": -73,
-      "y": -32,
+      "x": -32,
+      "y": 672,
       "zOrder": 196,
       "numberProperties": [],
       "stringProperties": [],
@@ -912,6 +912,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 224,
+      "layer": "",
+      "name": "Restart",
+      "persistentUuid": "386cfe0e-2090-4acc-8578-fe441b0ea106",
+      "width": 256,
+      "x": 32,
+      "y": 32,
+      "zOrder": 206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1031,6 +1047,12 @@
             "Paramètres_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1068,6 +1090,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1083,6 +1117,12 @@
             "Points",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1120,6 +1160,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1135,6 +1187,12 @@
             "back_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1172,6 +1230,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1187,6 +1257,12 @@
             "Backpara",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1224,6 +1300,18 @@
           "parameters": [
             "",
             "\"Controles\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
           ]
         }
       ]
@@ -1239,6 +1327,12 @@
             "Contrôles_pause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1277,6 +1371,18 @@
             "",
             "\"Parametres\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
         }
       ]
     },
@@ -1291,6 +1397,12 @@
             "Backcontrolepause",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1329,13 +1441,126 @@
             "",
             "\"Controles\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-negative-tone-interface-tap-2569.wav",
+            "",
+            "100",
+            ""
+          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Winlevel",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "mixkit-quick-win-video-game-notification-267.wav",
+            "",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "Restart",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level2\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Restart"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

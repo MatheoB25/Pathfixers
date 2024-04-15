@@ -1347,6 +1347,25 @@
         "name": "Ellipse 1p.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "mixkit-quick-win-video-game-notification-267.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-quick-win-video-game-notification-267.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cadena.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cadena.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

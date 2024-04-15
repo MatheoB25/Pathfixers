@@ -144,51 +144,6 @@
       "conditions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::Index"
-          },
-          "parameters": [
-            "ROBOT_",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::Index"
-          },
-          "parameters": [
-            "ROBOT_2",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Winlevel",
-            "+",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "VarGlobal"
           },
           "parameters": [
@@ -213,6 +168,16 @@
             "",
             "\"Level2\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Winlevel",
+            "=",
+            "0"
           ]
         }
       ]
@@ -247,6 +212,16 @@
             "\"Level3\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Winlevel",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -280,6 +255,16 @@
             "\"Level4\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Winlevel",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -312,6 +297,16 @@
             "",
             "\"Level5\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Winlevel",
+            "=",
+            "0"
           ]
         }
       ]
