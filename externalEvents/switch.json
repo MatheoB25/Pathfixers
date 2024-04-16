@@ -29,25 +29,15 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "Fleche",
-                ""
-              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetGlobalVariableAsBoolean"
+                "value": "ToggleGlobalVariableAsBoolean"
               },
               "parameters": [
-                "Fleche",
-                "True"
+                "Fleche"
               ]
             },
             {
@@ -155,19 +145,37 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
-                "",
-                "r"
+                "Fleche",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "fleche2",
+                ""
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "Cache"
               },
-              "parameters": []
-            },
+              "parameters": [
+                "fleche1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "GlobalVariableAsBoolean"
@@ -181,178 +189,19 @@
           "actions": [
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "\"SwitchTime\""
+                "fleche1",
+                ""
               ]
             },
             {
               "type": {
-                "value": "SetGlobalVariableAsBoolean"
+                "value": "Cache"
               },
               "parameters": [
-                "Fleche",
-                "False"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Switch",
-                    "False"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Actif",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Switch",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Actif",
-                    "=",
-                    "2"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Actif",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Switch",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Actif",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Fleche",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "fleche1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "fleche2",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Fleche",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "fleche2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "fleche1",
-                    ""
-                  ]
-                }
+                "fleche2"
               ]
             }
           ]
