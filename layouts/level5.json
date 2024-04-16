@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.30887412163426836,
+    "zoomFactor": 0.31928945896901983,
     "windowMask": false
   },
   "objectsGroups": [
@@ -66,8 +66,8 @@
       "name": "ROBOT_2",
       "persistentUuid": "08200515-4dea-4509-a12b-938f2f7281bb",
       "width": 105,
-      "x": 172,
-      "y": 949,
+      "x": 140,
+      "y": 1004,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -209,10 +209,10 @@
       "layer": "",
       "name": "SWITCH",
       "persistentUuid": "23fb463b-ae32-4950-bcc3-722866ef61bd",
-      "width": 1856,
-      "x": 32,
+      "width": 1952,
+      "x": 0,
       "y": 0,
-      "zOrder": 116,
+      "zOrder": 322,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -221,13 +221,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 128,
+      "height": 32,
       "layer": "",
       "name": "box",
       "persistentUuid": "a113de1b-0907-4ea7-ae3b-b2995b32de6d",
-      "width": 128,
-      "x": 512,
-      "y": 960,
+      "width": 192,
+      "x": 480,
+      "y": 1024,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -289,8 +289,8 @@
       "layer": "",
       "name": "button",
       "persistentUuid": "3189682e-8671-4f86-8b50-71f038cc67b1",
-      "width": 128,
-      "x": 416,
+      "width": 64,
+      "x": 448,
       "y": 544,
       "zOrder": 13,
       "numberProperties": [],
@@ -419,7 +419,7 @@
       "persistentUuid": "60d3e011-3a0b-4dd1-b260-991106f2c33e",
       "width": 64,
       "x": 992,
-      "y": 784,
+      "y": 752,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -541,12 +541,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 1,
       "layer": "",
       "name": "down_button",
       "persistentUuid": "30cb9d90-f51e-454b-b61a-6c0b0dd37448",
-      "width": 64,
-      "x": 1120,
+      "width": 1,
+      "x": 1056,
       "y": 864,
       "zOrder": 118,
       "numberProperties": [],
@@ -736,7 +736,7 @@
       "name": "YES_NO",
       "persistentUuid": "7073db64-f3d6-4992-b81f-0f029058c701",
       "width": 224,
-      "x": 1248,
+      "x": 1568,
       "y": 800,
       "zOrder": 126,
       "numberProperties": [],
@@ -752,7 +752,7 @@
       "name": "YES_NO",
       "persistentUuid": "362c9e7e-6c9c-4cc0-81a2-9510895ca0bc",
       "width": 224,
-      "x": 1248,
+      "x": 1568,
       "y": 480,
       "zOrder": 126,
       "numberProperties": [],
@@ -863,6 +863,70 @@
       "x": 64,
       "y": 0,
       "zOrder": 136,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 160,
+      "layer": "Pause",
+      "name": "NewButton",
+      "persistentUuid": "5ca82ad0-b083-44e9-a469-b9f03efdaede",
+      "width": 832,
+      "x": 544,
+      "y": 864,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "down_button",
+      "persistentUuid": "22e4f7c0-09b1-427d-808b-e1ca0e10d26c",
+      "width": 64,
+      "x": 1056,
+      "y": 864,
+      "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "fleche1",
+      "persistentUuid": "836ed880-c274-4621-94bc-945f1c341402",
+      "width": 128,
+      "x": 96,
+      "y": 256,
+      "zOrder": 323,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "fleche2",
+      "persistentUuid": "9cb6e158-dd68-47c9-8aa7-b984410e244e",
+      "width": 128,
+      "x": 96,
+      "y": 768,
+      "zOrder": 324,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1288,6 +1352,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1462,6 +1527,101 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "In the Neon Nights2.mp3",
+            "5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "NewButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

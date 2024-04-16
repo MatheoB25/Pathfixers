@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.27050126039625544,
+    "zoomFactor": 0.4598521426736344,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,7 +35,7 @@
       "width": 2048,
       "x": -64,
       "y": 0,
-      "zOrder": 196,
+      "zOrder": 430,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -359,7 +359,7 @@
       "persistentUuid": "26a8ef0c-4389-437f-8973-ccc8689f4f13",
       "width": 96,
       "x": 80,
-      "y": 496,
+      "y": 528,
       "zOrder": 202,
       "numberProperties": [],
       "stringProperties": [],
@@ -435,7 +435,7 @@
       "name": "button_2",
       "persistentUuid": "3e71ab3e-5670-446e-b1b2-781be181cc44",
       "width": 0,
-      "x": 800,
+      "x": 864,
       "y": 896,
       "zOrder": 207,
       "numberProperties": [],
@@ -450,7 +450,7 @@
       "name": "button_3",
       "persistentUuid": "4dced969-954b-4045-a434-d40a7bab971e",
       "width": 0,
-      "x": 1376,
+      "x": 1408,
       "y": 896,
       "zOrder": 208,
       "numberProperties": [],
@@ -593,7 +593,7 @@
       "name": "down_button",
       "persistentUuid": "89de8231-8a7d-4c00-80b2-3852bf4f85f7",
       "width": 0,
-      "x": 608,
+      "x": 544,
       "y": 896,
       "zOrder": 216,
       "numberProperties": [],
@@ -623,7 +623,7 @@
       "name": "down_button2",
       "persistentUuid": "2a35ad9c-5f62-4707-98bc-c7d399c2f818",
       "width": 0,
-      "x": 1152,
+      "x": 1088,
       "y": 896,
       "zOrder": 218,
       "numberProperties": [],
@@ -749,7 +749,7 @@
       "name": "YES_NO",
       "persistentUuid": "77b82e94-00af-428b-b20b-3f2db923f26c",
       "width": 224,
-      "x": 1280,
+      "x": 1536,
       "y": 800,
       "zOrder": 126,
       "numberProperties": [],
@@ -765,7 +765,7 @@
       "name": "YES_NO",
       "persistentUuid": "ef49b1e6-49dc-4d3e-a9c5-c70dbe9a1ab6",
       "width": 224,
-      "x": 1280,
+      "x": 1536,
       "y": 480,
       "zOrder": 126,
       "numberProperties": [],
@@ -955,6 +955,54 @@
       "x": 64,
       "y": 32,
       "zOrder": 223,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 160,
+      "layer": "Pause",
+      "name": "NewButton",
+      "persistentUuid": "5865f5f3-1d8c-456a-a578-fcf43b142fb7",
+      "width": 832,
+      "x": 608,
+      "y": 800,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "fleche1",
+      "persistentUuid": "884319fe-be8e-4758-8585-fe9117c0a55e",
+      "width": 128,
+      "x": 32,
+      "y": 320,
+      "zOrder": 431,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "fleche2",
+      "persistentUuid": "804e2fba-82a1-4e4c-a877-aee026806278",
+      "width": 128,
+      "x": 32,
+      "y": 768,
+      "zOrder": 432,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1576,6 +1624,96 @@
             "",
             "100",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Cosmic Fusion (1)2.mp3",
+            "2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "NewButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "3"
           ]
         }
       ]

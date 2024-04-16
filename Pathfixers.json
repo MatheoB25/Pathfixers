@@ -318,7 +318,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite13.png\"}",
         "name": "NewSprite13",
         "smoothed": true,
         "userAdded": false
@@ -974,7 +974,7 @@
         "alwaysLoaded": false,
         "file": "assets/down_button.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down_button.png\"}",
         "name": "down_button",
         "smoothed": true,
         "userAdded": true
@@ -1364,6 +1364,167 @@
         "kind": "image",
         "metadata": "",
         "name": "cadena.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "backmenu2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backmenu2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "backmenuhigh2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backmenuhigh2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bacjkmenupress2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bacjkmenupress2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Groove Showdown4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Groove Showdown4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Groove Showdown (1)3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Groove Showdown (1)3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Cosmic Fusion3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cosmic Fusion3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Cosmic Fusion (1)2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cosmic Fusion (1)2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Cosmic Fusion (2)2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cosmic Fusion (2)2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "In the Neon Nights (1)2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "In the Neon Nights (1)2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "../../../Downloads/In the Neon Nights (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\In the Neon Nights (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "In the Neon Nights2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "In the Neon Nights2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/down_button2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down_button2.png\"}",
+        "name": "down_button2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite24.png\"}",
+        "name": "NewSprite24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite25.png\"}",
+        "name": "NewSprite25",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite26",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite27",
         "smoothed": true,
         "userAdded": true
       }
@@ -2885,7 +3046,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite13",
+                  "image": "NewSprite24",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2905,16 +3066,16 @@
                         "y": 0
                       },
                       {
-                        "x": 56,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 56,
-                        "y": 53
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 53
+                        "y": 64
                       }
                     ]
                   ]
@@ -3327,7 +3488,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite13",
+                  "image": "NewSprite25",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3347,16 +3508,16 @@
                         "y": 0
                       },
                       {
-                        "x": 56,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 56,
-                        "y": 53
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 53
+                        "y": 64
                       }
                     ]
                   ]
@@ -3408,16 +3569,16 @@
                         "y": 0
                       },
                       {
-                        "x": 56,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 56,
-                        "y": 53
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 53
+                        "y": 64
                       }
                     ]
                   ]
@@ -3571,7 +3732,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down_button",
+                  "image": "down_button2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3588,19 +3749,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 3
+                        "y": 0
                       },
                       {
                         "x": 64,
-                        "y": 3
+                        "y": 0
                       },
                       {
                         "x": 64,
-                        "y": 62
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 62
+                        "y": 64
                       }
                     ]
                   ]
@@ -3649,19 +3810,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 3
+                        "y": 0
                       },
                       {
                         "x": 64,
-                        "y": 3
+                        "y": 0
                       },
                       {
                         "x": 64,
-                        "y": 62
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 62
+                        "y": 64
                       }
                     ]
                   ]
@@ -4541,7 +4702,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite21",
+                  "image": "NewSprite23",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5285,6 +5446,204 @@
           "width": 32
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "backmenuhigh2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "backmenu2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "bacjkmenupress2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fleche1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite27",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 9
+                      },
+                      {
+                        "x": 58,
+                        "y": 9
+                      },
+                      {
+                        "x": 58,
+                        "y": 55
+                      },
+                      {
+                        "x": 6,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fleche2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite27",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 9
+                      },
+                      {
+                        "x": 58,
+                        "y": 9
+                      },
+                      {
+                        "x": 58,
+                        "y": 55
+                      },
+                      {
+                        "x": 6,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5468,6 +5827,15 @@
         "objectName": "Controlespause"
       },
       {
+        "objectName": "NewButton"
+      },
+      {
+        "objectName": "fleche1"
+      },
+      {
+        "objectName": "fleche2"
+      },
+      {
         "objectName": "Restart"
       }
     ]
@@ -5508,6 +5876,12 @@
       "name": "Winlevel",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Fleche",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

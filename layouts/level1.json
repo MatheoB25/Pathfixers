@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2796226521839376,
+    "zoomFactor": 0.3088741216342655,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,7 +35,7 @@
       "width": 2016,
       "x": -32,
       "y": 0,
-      "zOrder": 133,
+      "zOrder": 300,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -309,8 +309,8 @@
       "name": "YES_NO",
       "persistentUuid": "3a88af95-140d-4a6f-b301-98a76cf4a169",
       "width": 224,
-      "x": 1248,
-      "y": 800,
+      "x": 1472,
+      "y": 768,
       "zOrder": 126,
       "numberProperties": [],
       "stringProperties": [],
@@ -325,8 +325,8 @@
       "name": "YES_NO",
       "persistentUuid": "096d37db-07be-440e-97ae-4ed2bd4c904e",
       "width": 224,
-      "x": 1248,
-      "y": 480,
+      "x": 1472,
+      "y": 352,
       "zOrder": 126,
       "numberProperties": [],
       "stringProperties": [],
@@ -340,8 +340,8 @@
       "name": "musique",
       "persistentUuid": "8797e9de-7fc8-4b8b-a877-57723c4628b8",
       "width": 0,
-      "x": 640,
-      "y": 544,
+      "x": 642,
+      "y": 384,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -372,7 +372,7 @@
       "persistentUuid": "b4df1a8b-46a5-4ddb-a7ec-7ac76340b532",
       "width": 2112,
       "x": -96,
-      "y": -96,
+      "y": -128,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,6 +518,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 160,
+      "layer": "Pause",
+      "name": "NewButton",
+      "persistentUuid": "81aee01c-fbec-4e51-a2da-948dcbc89871",
+      "width": 832,
+      "x": 576,
+      "y": 832,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "fleche1",
+      "persistentUuid": "db36719a-51f5-4062-9677-966ae1035d2e",
+      "width": 160,
+      "x": 64,
+      "y": 256,
+      "zOrder": 301,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "fleche2",
+      "persistentUuid": "56df5b7a-a465-4a82-aa0c-6ed1eb32937b",
+      "width": 160,
+      "x": 64,
+      "y": 736,
+      "zOrder": 302,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -532,7 +580,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press \"R\" to switch between the two characters",
+      "string": "Appuie sur \"R\" pour changer de personnage",
       "font": "",
       "textAlignment": "left",
       "characterSize": 60,
@@ -555,7 +603,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Press \"R\" to switch between the two characters",
+        "text": "Appuie sur \"R\" pour changer de personnage",
         "font": "",
         "textAlignment": "left",
         "characterSize": 60,
@@ -1100,8 +1148,93 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "NewButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Groove Showdown4.mp3",
+            "1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

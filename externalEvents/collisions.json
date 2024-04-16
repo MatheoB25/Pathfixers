@@ -251,7 +251,7 @@
           "parameters": [
             "ROBOT_",
             "0",
-            "100",
+            "500",
             ""
           ]
         }
@@ -529,6 +529,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1080,6 +1081,7 @@
       "actions": []
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1108,6 +1110,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1136,6 +1139,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1341,6 +1345,15 @@
           },
           "parameters": [
             "DoorCollision",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "button",
             ""
           ]
         }
@@ -1762,7 +1775,16 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TargetThrowBox"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.17003036489028975,
+    "zoomFactor": 0.3300560049165938,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,14 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1216,
+      "height": 1024,
       "layer": "",
       "name": "SWITCH",
       "persistentUuid": "e7efba0f-3118-4f5a-baf2-cd7ff001c542",
-      "width": 2089,
+      "width": 1984,
       "x": -32,
-      "y": 672,
-      "zOrder": 196,
+      "y": 0,
+      "zOrder": 400,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -578,8 +578,8 @@
       "name": "YES_NO",
       "persistentUuid": "f615ebbc-3b6e-4898-9c3b-84183f383090",
       "width": 224,
-      "x": 1280,
-      "y": 800,
+      "x": 1504,
+      "y": 768,
       "zOrder": 126,
       "numberProperties": [],
       "stringProperties": [],
@@ -594,7 +594,7 @@
       "name": "YES_NO",
       "persistentUuid": "cf59eb94-5ca3-4c62-a170-0d6161c0261e",
       "width": 224,
-      "x": 1280,
+      "x": 1504,
       "y": 480,
       "zOrder": 126,
       "numberProperties": [],
@@ -928,6 +928,69 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 160,
+      "layer": "Pause",
+      "name": "NewButton",
+      "persistentUuid": "ae44e47d-6dec-42ff-9e92-2bff6476430e",
+      "width": 832,
+      "x": 576,
+      "y": 736,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewText2",
+      "persistentUuid": "82b02bcf-1745-4660-9883-66d162178e4f",
+      "width": 0,
+      "x": 327,
+      "y": 0,
+      "zOrder": 401,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "fleche1",
+      "persistentUuid": "4d576ba0-09d9-4269-877a-226b26c4572c",
+      "width": 160,
+      "x": 32,
+      "y": 256,
+      "zOrder": 402,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "fleche2",
+      "persistentUuid": "5b451450-5a32-4350-a7d6-f68b5228c955",
+      "width": 160,
+      "x": 32,
+      "y": 736,
+      "zOrder": 403,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -971,6 +1034,47 @@
         "characterSize": 60,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Ne touche pas les faisseaux électriques !",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Ne touche pas les faisseaux électriques !",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 70,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -978,6 +1082,9 @@
     "children": [
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "NewText2"
       }
     ]
   },
@@ -1535,6 +1642,123 @@
             "",
             "\"Level2\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Cosmic Fusion3.mp3",
+            "yes",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Cosmic Fusion3.mp3",
+            "2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "NewButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2"
           ]
         }
       ]

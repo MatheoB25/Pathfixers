@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2796226521839383,
+    "zoomFactor": 0.3768772036750887,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,10 +32,10 @@
       "layer": "",
       "name": "SWITCH",
       "persistentUuid": "e7efba0f-3118-4f5a-baf2-cd7ff001c542",
-      "width": 2048,
-      "x": -64,
-      "y": 1088,
-      "zOrder": 196,
+      "width": 2016,
+      "x": -32,
+      "y": 0,
+      "zOrder": 645,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -262,8 +262,8 @@
       "name": "box",
       "persistentUuid": "0c05665b-a575-465b-9c13-f42d5de6b1e3",
       "width": 96,
-      "x": 1104,
-      "y": 576,
+      "x": 944,
+      "y": 1024,
       "zOrder": 223,
       "numberProperties": [],
       "stringProperties": [],
@@ -341,7 +341,7 @@
       "name": "YES_NO",
       "persistentUuid": "43be95f2-9e1c-422e-8c57-4bd1b4b7d9b8",
       "width": 224,
-      "x": 1280,
+      "x": 1536,
       "y": 800,
       "zOrder": 126,
       "numberProperties": [],
@@ -357,7 +357,7 @@
       "name": "YES_NO",
       "persistentUuid": "1aa33380-4125-46fb-b16c-144ee2e0526d",
       "width": 224,
-      "x": 1280,
+      "x": 1536,
       "y": 480,
       "zOrder": 126,
       "numberProperties": [],
@@ -539,13 +539,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 48,
-      "height": 224,
+      "height": 192,
       "layer": "",
       "name": "Restart",
       "persistentUuid": "2b3f0d4e-dc74-4065-8023-40f962c12cd8",
-      "width": 224,
-      "x": 1696,
-      "y": 352,
+      "width": 192,
+      "x": 1728,
+      "y": 256,
       "zOrder": 226,
       "numberProperties": [],
       "stringProperties": [],
@@ -560,17 +560,176 @@
       "name": "Open",
       "persistentUuid": "93c34d9b-f54a-4410-b565-ed00d23bb3ba",
       "width": 128,
-      "x": 1696,
+      "x": 1408,
       "y": 96,
       "zOrder": 227,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1024,
+      "layer": "",
+      "name": "DOOR",
+      "persistentUuid": "c144df46-6928-40ef-bf9c-975b2e8c168f",
+      "width": 64,
+      "x": 1696,
+      "y": 512,
+      "zOrder": 228,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1024,
+      "layer": "",
+      "name": "DoorCollision",
+      "persistentUuid": "6617580a-c982-454b-a7fd-8ea8f921d6c7",
+      "width": 64,
+      "x": 1664,
+      "y": 0,
+      "zOrder": 229,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "button",
+      "persistentUuid": "a140adf5-711c-47a2-92e6-202617ec946f",
+      "width": 64,
+      "x": 1600,
+      "y": 384,
+      "zOrder": 230,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 160,
+      "layer": "Pause",
+      "name": "NewButton",
+      "persistentUuid": "7d29f837-a71b-4a5a-b389-b68315a8caa9",
+      "width": 832,
+      "x": 608,
+      "y": 864,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 110,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "a403be63-9180-43a1-b927-bf5548bec16c",
+      "width": 1056,
+      "x": 288,
+      "y": 658,
+      "zOrder": 646,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "fleche1",
+      "persistentUuid": "048b4290-ae2e-45a1-bc4e-062372aeaed9",
+      "width": 128,
+      "x": 64,
+      "y": 288,
+      "zOrder": 647,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "fleche2",
+      "persistentUuid": "71aa621d-ce86-4dc8-80b4-cb1931066661",
+      "width": 128,
+      "x": 64,
+      "y": 768,
+      "zOrder": 648,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Porte, Lance et Renvoie la boite en appuyant sur \"E\".",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Porte, Lance et Renvoie la boite en appuyant sur \"E\".",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 70,
+        "color": "0;0;0"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewText"
+      }
+    ]
   },
   "events": [
     {
@@ -1045,6 +1204,96 @@
             "",
             "100",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "In the Neon Nights (1)2.mp3",
+            "4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "NewButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "interface-124464.mp3",
+            "",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "4"
           ]
         }
       ]
