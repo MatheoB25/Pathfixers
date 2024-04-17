@@ -37,6 +37,16 @@
             "0\n",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Flippable",
+            "yes"
+          ]
         }
       ]
     },
@@ -73,6 +83,16 @@
             "600\n",
             "0\n",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "ROBOT_",
+            "Flippable",
+            "no"
           ]
         }
       ]
@@ -111,6 +131,16 @@
             "0\n",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "Flippable",
+            "yes"
+          ]
         }
       ]
     },
@@ -148,6 +178,16 @@
             "0\n",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "ROBOT_2",
+            "Flippable",
+            "no"
+          ]
         }
       ]
     },
@@ -172,14 +212,26 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "SWITCH"
+            "SWITCH",
+            "Opacity",
+            "=",
+            "0"
           ]
         }
       ]
@@ -200,14 +252,145 @@
       "actions": [
         {
           "type": {
-            "value": "Montre"
+            "value": "ResetObjectTimer"
           },
           "parameters": [
             "SWITCH",
-            ""
+            "\"TS\""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "SWITCH",
+            "\"TS\"",
+            ">=",
+            "0.1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "SWITCH",
+            "Opacity",
+            "+",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "SWITCH",
+            "\"TS\"",
+            ">=",
+            "0.5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "SWITCH",
+            "Opacity",
+            "+",
+            "255"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "SWITCH",
+            "\"TS\"",
+            ">=",
+            "0.55"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "r"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "SWITCH",
+            "Opacity",
+            "-",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "SWITCH",
+            "\"TS\"",
+            ">=",
+            "0.7"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "SWITCH",
+            "Opacity",
+            "-",
+            "255"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }

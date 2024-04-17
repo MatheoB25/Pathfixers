@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3300560049165938,
+    "zoomFactor": 0.28905162031349313,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,7 +33,7 @@
       "name": "SWITCH",
       "persistentUuid": "e7efba0f-3118-4f5a-baf2-cd7ff001c542",
       "width": 1984,
-      "x": -32,
+      "x": 0,
       "y": 0,
       "zOrder": 400,
       "numberProperties": [],
@@ -44,13 +44,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 241,
       "layer": "",
       "name": "ROBOT_",
       "persistentUuid": "1d2d225e-3c0c-4859-bf33-8d64db969493",
-      "width": 96,
-      "x": 144,
-      "y": 528,
+      "width": 223,
+      "x": 177,
+      "y": 501,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -177,13 +177,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 256,
       "layer": "",
       "name": "ROBOT_2",
       "persistentUuid": "f7a9f4a4-9619-4686-b2df-6f728ed8e4a4",
-      "width": 96,
-      "x": 144,
-      "y": 976,
+      "width": 224,
+      "x": 176,
+      "y": 992,
       "zOrder": 135,
       "numberProperties": [],
       "stringProperties": [],
@@ -525,22 +525,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1536,
-      "layer": "Parametres",
-      "name": "fond_pause",
-      "persistentUuid": "ec04e682-1f4d-4fbd-a738-a26ba20c32bd",
-      "width": 2400,
-      "x": -64,
-      "y": -288,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 48,
       "height": 224,
       "layer": "Parametres",
@@ -634,22 +618,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1248,
-      "layer": "Pause",
-      "name": "fond_pause",
-      "persistentUuid": "64cdf5b0-9a90-4109-8c85-88224dd5676a",
-      "width": 2112,
-      "x": -64,
-      "y": -96,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 48,
       "height": 224,
       "layer": "Pause",
@@ -659,22 +627,6 @@
       "x": 128,
       "y": 608,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 96,
-      "layer": "Pause",
-      "name": "Paramètres_pause",
-      "persistentUuid": "cc64561c-cd28-4d5e-926f-64fc51565a6f",
-      "width": 544,
-      "x": 736,
-      "y": 288,
-      "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -704,24 +656,8 @@
       "persistentUuid": "dcf6b9a5-d1e6-4c9a-b012-5fb8e9b387e1",
       "width": 544,
       "x": 736,
-      "y": 512,
+      "y": 352,
       "zOrder": 124,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1408,
-      "layer": "Controles",
-      "name": "fond_pause",
-      "persistentUuid": "2043508d-3128-4cc3-8ccc-870d6395b90e",
-      "width": 2656,
-      "x": -128,
-      "y": -160,
-      "zOrder": 132,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -939,7 +875,7 @@
       "persistentUuid": "ae44e47d-6dec-42ff-9e92-2bff6476430e",
       "width": 832,
       "x": 576,
-      "y": 736,
+      "y": 576,
       "zOrder": 139,
       "numberProperties": [],
       "stringProperties": [],
@@ -988,6 +924,83 @@
       "x": 32,
       "y": 736,
       "zOrder": 403,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "",
+      "name": "fondniveau",
+      "persistentUuid": "e10119be-930a-4cfb-a581-a7412511175b",
+      "width": 2048,
+      "x": -64,
+      "y": 0,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "fondpause",
+      "persistentUuid": "6b72fe1c-c846-470b-8fdb-e0343f3d1689",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Parametres",
+      "name": "fondpause",
+      "persistentUuid": "bed87a81-0d41-42f4-9e5f-f8f0308d0268",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Controles",
+      "name": "fondpause",
+      "persistentUuid": "262e60a1-4b57-4791-ae16-d7904b600ef4",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 128,
+      "layer": "",
+      "name": "Points",
+      "persistentUuid": "db350b1a-4c06-41a4-97c5-0a2b1cf60eaf",
+      "width": 32,
+      "x": 1824,
+      "y": 32,
+      "zOrder": 404,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1075,6 +1088,66 @@
         "characterSize": 70,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "IMG_1054.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1085,6 +1158,9 @@
       },
       {
         "objectName": "NewText2"
+      },
+      {
+        "objectName": "NewSprite2"
       }
     ]
   },
@@ -1661,39 +1737,12 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Cosmic Fusion3.mp3",
-            "yes",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
             "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
             "Cosmic Fusion3.mp3",
-            "2",
+            "1",
             "",
             "",
             ""
@@ -1705,7 +1754,7 @@
           },
           "parameters": [
             "",
-            "2"
+            "1"
           ]
         }
       ]
@@ -1750,15 +1799,6 @@
             "",
             "\"Menu\"",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "2"
           ]
         }
       ]

@@ -5,7 +5,7 @@
   "name": "Paramètres",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -116,6 +116,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "fondpause",
+      "persistentUuid": "f099c580-f3e6-451e-851f-37a00e7299e0",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -191,23 +206,11 @@
         },
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "StopSoundCanal"
           },
           "parameters": [
             "",
-            "mixkit-quick-win-video-game-notification-268.wav",
-            "",
-            "100\n",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "UnloadMusic"
-          },
-          "parameters": [
-            "",
-            "Groove Showdown (1)2.mp3"
+            "7"
           ]
         }
       ]
@@ -249,54 +252,6 @@
           },
           "parameters": [
             "YES_NO2",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "UnloadMusic"
-          },
-          "parameters": [
-            "",
-            "switch-sound2.mp3"
-          ]
-        },
-        {
-          "type": {
-            "value": "UnloadMusic"
-          },
-          "parameters": [
-            "",
-            "mixkit-quick-win-video-game-notification-269.wav"
-          ]
-        },
-        {
-          "type": {
-            "value": "UnloadMusic"
-          },
-          "parameters": [
-            "",
-            "interface-124463.mp3"
-          ]
-        },
-        {
-          "type": {
-            "value": "UnloadMusic"
-          },
-          "parameters": [
-            "",
-            "mixkit-negative-tone-interface-tap-2567.wav"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "mixkit-quick-win-video-game-notification-268.wav",
-            "",
-            "100\n",
             ""
           ]
         }

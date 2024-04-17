@@ -213,6 +213,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "76b08f9b-260b-49fe-8382-dda615f1da59",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4598521426736344,
+    "zoomFactor": 0.25314140012986297,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,7 +35,7 @@
       "width": 2048,
       "x": -64,
       "y": 0,
-      "zOrder": 430,
+      "zOrder": 5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -44,13 +44,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 192,
       "layer": "",
       "name": "ROBOT_",
       "persistentUuid": "1d2d225e-3c0c-4859-bf33-8d64db969493",
-      "width": 96,
-      "x": 304,
-      "y": 528,
+      "width": 192,
+      "x": 257,
+      "y": 529,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -161,13 +161,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 192,
       "layer": "",
       "name": "ROBOT_2",
       "persistentUuid": "f7a9f4a4-9619-4686-b2df-6f728ed8e4a4",
-      "width": 96,
-      "x": 144,
-      "y": 976,
+      "width": 192,
+      "x": 224,
+      "y": 992,
       "zOrder": 135,
       "numberProperties": [],
       "stringProperties": [],
@@ -696,22 +696,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1536,
-      "layer": "Parametres",
-      "name": "fond_pause",
-      "persistentUuid": "3da557f3-595a-46a5-86db-0d17a3a9a981",
-      "width": 2400,
-      "x": -64,
-      "y": -288,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 48,
       "height": 224,
       "layer": "Parametres",
@@ -805,22 +789,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1248,
-      "layer": "Pause",
-      "name": "fond_pause",
-      "persistentUuid": "1a29b4c3-59a4-4c6c-b217-6182dbceebf2",
-      "width": 2112,
-      "x": -64,
-      "y": -96,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 48,
       "height": 224,
       "layer": "Pause",
@@ -830,22 +798,6 @@
       "x": 96,
       "y": 640,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 96,
-      "layer": "Pause",
-      "name": "Paramètres_pause",
-      "persistentUuid": "982cdf4e-4ed3-43f2-8add-67ca4c26b4b0",
-      "width": 544,
-      "x": 736,
-      "y": 288,
-      "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -875,24 +827,8 @@
       "persistentUuid": "482e5050-6565-4465-85cc-1c106cf70730",
       "width": 544,
       "x": 736,
-      "y": 512,
+      "y": 320,
       "zOrder": 124,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1408,
-      "layer": "Controles",
-      "name": "fond_pause",
-      "persistentUuid": "579344f6-b7af-444a-9230-98db7b212c45",
-      "width": 2656,
-      "x": -96,
-      "y": -160,
-      "zOrder": 132,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -969,7 +905,7 @@
       "persistentUuid": "5865f5f3-1d8c-456a-a578-fcf43b142fb7",
       "width": 832,
       "x": 608,
-      "y": 800,
+      "y": 544,
       "zOrder": 139,
       "numberProperties": [],
       "stringProperties": [],
@@ -1003,6 +939,67 @@
       "x": 32,
       "y": 768,
       "zOrder": 432,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "",
+      "name": "fondniveau",
+      "persistentUuid": "61228a4d-4302-40cf-96e6-6fcfb68f0649",
+      "width": 2048,
+      "x": -64,
+      "y": 0,
+      "zOrder": -28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "fondpause",
+      "persistentUuid": "42a24aad-d3ea-4c1d-a3f0-47fc06bfb947",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Parametres",
+      "name": "fondpause",
+      "persistentUuid": "b991cc94-118f-4153-84fe-24ea64c48974",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Controles",
+      "name": "fondpause",
+      "persistentUuid": "ca9fa123-42d9-4c8a-9ed2-bf9d64f29182",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1648,7 +1645,7 @@
           "parameters": [
             "",
             "Cosmic Fusion (1)2.mp3",
-            "2",
+            "1",
             "",
             "",
             ""
@@ -1660,7 +1657,7 @@
           },
           "parameters": [
             "",
-            "3"
+            "1"
           ]
         }
       ]
@@ -1705,15 +1702,6 @@
             "",
             "\"Menu\"",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "3"
           ]
         }
       ]
