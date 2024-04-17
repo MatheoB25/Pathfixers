@@ -274,17 +274,6 @@
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
-          },
-          "parameters": [
-            "ROBOT_",
-            "Animation",
-            "=",
-            "\"ROBOT 1\""
-          ]
-        },
-        {
-          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
