@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2705012603962555,
+    "zoomFactor": 0.34118560234734574,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,7 +32,7 @@
       "layer": "",
       "name": "SWITCH",
       "persistentUuid": "e7efba0f-3118-4f5a-baf2-cd7ff001c542",
-      "width": 1984,
+      "width": 1952,
       "x": 0,
       "y": 0,
       "zOrder": 300,

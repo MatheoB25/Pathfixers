@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Student\\OneDrive\\Documents\\GDevelopProjects\\Matheo Berlier Pathfixers",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -282,7 +282,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
         "name": "NewSprite9",
         "smoothed": true,
         "userAdded": false
@@ -1929,8 +1929,17 @@
         "alwaysLoaded": false,
         "file": "assets/Open5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Open5.png\"}",
         "name": "Open",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "box2",
         "smoothed": true,
         "userAdded": true
       }
@@ -3111,7 +3120,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "box",
+                  "image": "box2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
